@@ -1,0 +1,107 @@
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  padding-top: 60px;
+} */
+
+ .headerContent {
+  background: url(./../images/abc.png);
+  background-size: cover;
+  width:100%;
+  background-repeat: round;
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+  display: flex;
+  align-items: center;
+ }
+ hr{
+ width: 100px;
+ margin-left: auto;
+ margin-right: auto;
+ height: 1px !important;
+ background-color:black;
+}
+ .para{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 60px 60px 40px 40px;
+  position: relative;
+ }
+
+
+.oraganization{
+  padding: 20px;
+  background: #070707eb;
+ }
+ .logo{
+  color: #22a8bd;
+  font-size: 2rem;
+  box-sizing: border-box;
+  display: block;
+      position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+.footerlogo{
+  max-height: 75px;
+    max-width: 10%;
+}
+.brand{
+  max-height: 27px;
+}
+.footerlist{
+list-style: none;
+font-size: 20px;
+line-height: 1.6em;
+padding: 0px;
+}
+.contactFooter{
+margin-top: 30px;
+padding-left: 20px;
+color: #0dbba1;
+position: relative;
+width: 100%;
+}
+.list{
+list-style: none;
+padding-left: 0;
+font-family: 'Open Sans', Arial, sans-serif;
+font-size: 20px;
+line-height: 1.6em;
+color: #fff;
+}
+.list li a{
+  color: #fff;
+}
+.list li a:hover{
+  color: #5c88b9;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+    color: #635757;
+    text-align: center;
+}
+@media (min-width:2000px){
+  .servingdetails h3{
+    font-size: 2rem;
+  }
+  .servingdetails h4{
+    font-size: 1.8rem;
+  }
+}

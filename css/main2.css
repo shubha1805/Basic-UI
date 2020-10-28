@@ -1,0 +1,68 @@
+ /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(20, 20, 20);
+}
+
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #0f0f0f;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  padding-top: 60px;
+} */
+
+ .headerContent {
+  background: url(./../images/img_mountains_wide.jpg);
+  background-size: cover;
+  height: 500px;
+  background-repeat: round;
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+  display: flex;
+  align-items: center;
+}
+.servingdetails{
+  border-right: 2px solid #cc353582;
+}
+
+.servingdetails:last-child{
+  border-right: 0px;
+}
+
+
+.headerdeatails{
+  padding: 20px;
+  background: #462f2feb;
+  color: #fff;
+  text-align: -webkit-center;
+}
+
+@media (min-width:2000px){
+  .servingdetails h3{
+    font-size: 2rem;
+  }
+  .servingdetails h4{
+    font-size: 1.8rem;
+  }
+}
